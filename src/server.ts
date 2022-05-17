@@ -1,7 +1,7 @@
 
 import App from './app'
 import dotenv from "dotenv"
-import log from "../api/utils/log.util"
+import log from "./utils/log.util"
 import Database from './database';
 
 (async () => {

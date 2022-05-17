@@ -4,7 +4,7 @@
   "main": "server.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only ./api/server.ts"
+    "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts"
   },
   "devDependencies": {
     "@types/compression": "^1.7.2",

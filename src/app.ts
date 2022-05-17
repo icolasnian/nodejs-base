@@ -3,7 +3,7 @@ import helmet from 'helmet'
 import compression from 'compression'
 import cors from 'cors'
 import log from "./utils/log.util";
-import router from "./routes/pokemon.routes";
+
 
 class App {
     public express: Application
@@ -26,7 +26,7 @@ class App {
     }
   
     private initRoutes (): void {
-      this.express.use(router)
+      //this.express.use(router)
     }
   
     public listen (): void {
